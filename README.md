@@ -24,6 +24,6 @@ async def blacklist_check(ctx,user):
             await ctx.send(b)
 ```
 
-This above is what we have currently on the @steemflagrewards bot but it did not seem to work in my development library so what removed the context dependencies for purposes of this package. (ie ctx.send replaced with bot.say)
+This above is what we have currently on the @steemflagrewards bot but it did not seem to work in my development environment so what removed the context dependencies for purposes of this package. (ie ctx.send replaced with bot.say)
 
 Once bot is running, you may test by issuing "?blacklist_check <user>" without the '@' sign. The result should list our the blacklists the user has been added to if applicable.
