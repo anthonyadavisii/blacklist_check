@@ -6,7 +6,7 @@ In order to use the code, you need to set your bot token as environmental variab
 
 If you would like to add the function to pre-existing bot, you should be able to use the following:
 
-@bot.command()
+```@bot.command()
 async def blacklist_check(ctx,user):
     """Queries blacklist status of user using @themarkymark's Blacklist API."""
     contents = urllib.request.urlopen("http://blacklist.usesteem.com/user/"+user).read()
@@ -21,7 +21,7 @@ async def blacklist_check(ctx,user):
             blacklists.append(b.replace('"',''))
         await ctx.send('@'+user+' is on the following blacklists: ')
         for b in blacklists:
-            await ctx.send(b)
+            await ctx.send(b)```
 
 This above is what we have currently on the @steemflagrewards bot but it did not seem to work in my development library so what removed the context dependencies for purposes of this package. (ie ctx.send replaced with bot.say)
 
