@@ -5,7 +5,7 @@ https://steemit.com/utopian-io/@themarkymark/global-blacklist-api-2-0-released
 You may clone the repo as follows. (Probably the easiest method to run.)
 
 ```
-https://github.com/anthonyadavisii/blacklist_check.git
+git clone https://github.com/anthonyadavisii/blacklist_check.git
 ```
 
 This code has been uploaded to PyPi and may be installed as follows:
