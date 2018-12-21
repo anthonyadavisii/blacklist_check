@@ -2,7 +2,13 @@ This code will allow you to run a Discord bot that is able to query the Steem Gl
 
 https://steemit.com/utopian-io/@themarkymark/global-blacklist-api-2-0-released
 
-This code has been uploaded to PyPi for ease of use and may be installed as follows:
+You may clone the repo as follows. (Probably the easiest method to run.)
+
+```
+https://github.com/anthonyadavisii/blacklist_check.git
+```
+
+This code has been uploaded to PyPi and may be installed as follows:
 
 ```
 python3.6 -m install Global-Blacklist-API-Check-Bot
